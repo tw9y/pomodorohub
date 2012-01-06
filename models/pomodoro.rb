@@ -1,8 +1,6 @@
-require 'mongo/model'
-
 class Pomodoro
   inherit Mongo::Model
   collection :pomodoros
 
-#  attr_accessor
+  attr_accessor :name
 end
